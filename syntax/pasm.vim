@@ -29,6 +29,7 @@ syn match pasmNumber "[0-9]\+"
 syn match pasmNumber "\$[0-9a-fA-F]\+"
 syn match pasmNumber "%[01]\+"
 syn match pasmNumber "\*"
+syn match pasmNumber "'[!-~]"
 
 syn case match
 

@@ -7,6 +7,8 @@ syn match pasmLocalLabel "^\.[a-z_][a-z0-9_]*"
 
 syn keyword pasmRegister a b x y z sp *
 
+syn keyword pasmOperator - < > / mod * asl lsr asr + - xor not and or
+
 syn keyword pasmOpcode adc and asl asr asw aug bit clc cld cle cli clv cmp cpx cpy cpz dec
 syn keyword pasmOpcode dew dex dey dez eor inc inw inx iny inz lda ldx ldy ldz lsr neg nop
 syn keyword pasmOpcode ora pha php phw phx phy phz pla plp plx ply plz rol ror row sbc sec
@@ -21,8 +23,6 @@ syn keyword pasmDirective byt
 syn keyword pasmDirective wrd
 syn keyword pasmDirective pad
 syn keyword pasmDirective adj
-
-syn keyword pasmOperator - < > / mod * asl lsr asr + - xor not and or
 
 syn match pasmComment ";.*" contains=pasmTodo
 syn keyword pasmTodo  contained todo fixme xxx warning danger note notice bug

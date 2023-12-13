@@ -3,7 +3,7 @@ syn case ignore
 
 syn match pasmIdentifier "[a-z_\.][a-z0-9_\.]*"
 syn match pasmGlobalLabel "^[a-z_][a-z0-9_\.]*"
-syn match pasmLocalLabel "^\.[a-z_][a-z0-9_]*"
+syn match pasmLocalLabel "^.[a-z_][a-z0-9_]*"
 
 syn keyword pasmRegister a b x y z sp *
 

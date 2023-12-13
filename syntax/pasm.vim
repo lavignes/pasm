@@ -26,6 +26,7 @@ syn keyword pasmDirective adj
 syn keyword pasmDirective txt
 syn keyword pasmDirective bss
 syn keyword pasmDirective inf
+syn keyword pasmDirective mac emc
 
 syn match pasmComment ";.*" contains=pasmTodo
 syn keyword pasmTodo  contained todo fixme xxx warning danger note notice bug
